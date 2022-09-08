@@ -1,0 +1,30 @@
+{
+  "id": "warhero",
+  "title": "Warhero Role playing game",
+  "description": "An italian easy sistem for fantasy RPG ",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.284",
+    "maximum": "10"
+  },
+  "url": "https://www.warhero.it/",
+  "manifest": "",
+  "download": "",
+  "authors": [
+    {
+      "name": "AlexDiste",
+      "url": "https://www.warhero.it/"
+    }
+  ],
+  "scripts": [],
+  "esmodules": ["warhero.mjs"],
+  "styles": ["warhero.css"],
+  "packs": [],
+  "languages": [],
+  "socket": true,
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": "mana"
+}

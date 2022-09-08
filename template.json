@@ -1,0 +1,49 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "character": {
+      "biography": "",
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+      },
+      "mana": {
+        "value": 5,
+        "min": 0,
+        "max": 5
+      },
+      "level":1,
+      "xp":0,
+      "gold":500,
+      "str":{
+        "base":0,
+        "actual":0
+      },
+      "dex":{
+        "base":0,
+        "actual":0
+      },
+      "int":{
+        "base":0,
+        "actual":0
+      },
+      "dr":0,
+      "ac":{
+        "base":12,
+        "actual":12
+      },
+      "actions":{
+        "base":2,
+        "actual":2
+      }
+    }
+  },
+  "Item": {
+    "types": ["item","armor","shield","weapon","race","class","magicsphere","power","feature"],
+    "item": { 
+      "description": "",
+      "quantity": 1
+    }
+  }
+}  
